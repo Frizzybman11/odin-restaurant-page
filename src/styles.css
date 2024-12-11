@@ -4,11 +4,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(./restaurant.jpg);
+    background-size: cover;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 5px;
+}
+
+footer > p {
+    color: white;
 }
 
 button {
@@ -31,6 +39,8 @@ button {
     align-items: center;
     background-color: rgb(231, 231, 231);
     margin: auto;
-    width: 60%;
+    width: 960px;
     height: 100vh;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
 }

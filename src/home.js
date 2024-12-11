@@ -4,7 +4,7 @@ export function loadHome(){
     const description = document.createElement("h2")
     const about = document.createElement("p");
     const content = document.getElementById("content");
-
+    
     name.innerHTML = "THE AMAZING ODIN RESTAURANT";
     image.src = "https://placehold.co/600x400";
     description.innerHTML = "Welcome to our restaurant! We're delighted to have you here!";
